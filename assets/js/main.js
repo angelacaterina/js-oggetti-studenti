@@ -74,7 +74,8 @@ $('#btn').click(function(){
   var studentMarkup3 =
   `
     <div class="cardStudent">
-      <h2>${newFirstName} ${newLastName}</h2>
+      <p class = "red"> New Student</p>
+      <h2 class = "red">${newFirstName} ${newLastName}</h2>
     </div>
   `
   console.log(newFirstName, newLastName, newAge);

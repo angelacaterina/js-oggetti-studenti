@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* UTILITY COLORS */
+.red{
+  color: red;
+}
+.grey{
+  color: grey;
+}
+
+/* UTILITY text */
+h1,
+section,
+.btn {
+  text-align: center;
+}
+
+h1,
+.btn{
+  margin: 20px;
+}
+
+h1{
+  background: #e6f7ff;
+  border-radius: 6px;
+}
+p{
+  font-size: 14px;
+}
